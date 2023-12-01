@@ -1,2 +1,2 @@
 # metodo_cholesky
-me
+jhona
