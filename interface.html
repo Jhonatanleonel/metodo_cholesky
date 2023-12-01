@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Método de Cholesky</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  
+  <div class="cajon">
+    
+    <div class="caja">
+      <center>
+        <header><h1 class="titulo">metodo Cholesky</h1></header>
+     </center>
+      <input class="dato" type="number" placeholder="filas" id="fila"><br>
+      <input class="dato" type="number" placeholder="columnas" id="columna"><br>
+
+      <button class="boton" onclick=inicializarEditor()>dimencionar</button>
+      <button class="boton" onclick =  location.reload() >limpiar</button>
+
+  
+
+    <!-- <label for="inputMatrix">Ingrese la matriz cuadrada (separada por comas):</label> -->
+
+      <div class="caja_1">
+       <div id="matrixEditor"></div>
+       <div id="matrixB"></div>
+       <div id="resultados"></div>
+    </div>
+
+    <button class="boton" onclick="alcularCholeskyc()">cholesky</button>
+  </div>
+</div>

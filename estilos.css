@@ -1,0 +1,100 @@
+
+
+/* estilos de las celdas */
+#inputMatrix {
+  margin-bottom: 10px;
+}
+
+.editable-cell_1,.editable-cell_2  {
+  position: relative;
+  display: inline-flex;
+  width: 40px;
+}
+
+.editable-cell_1 input{
+  width: 100%;
+  background-color: #ffffff61;
+  height: 25px;
+}
+.editable-cell_2 input {
+  width: 100%;
+  background-color: #ffffff86;
+  height: 25px;
+}
+.cell{
+  background-color: rgba(254, 254, 254, 0.86);
+  border-color: #90caf9;
+  border-radius: 6px;
+  text-align: center;
+  /* width: 130px; */
+  color: rgb(65, 79, 91);
+  font-size: 23px;
+}
+
+#matrixB,#matrixEditor,#resultado {
+  display: inline-block;
+  margin: 5px;
+}
+
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.titulo {
+  background-color: rgba(102, 154, 213, 0.283);
+  width: 80%;
+  margin: 0;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-bottom:15px ;
+}
+
+.cajon {
+  /* background-image:linear-gradient(45grad,#0d47a1, #1976d2,  #90caf9 );  */
+  width: 500px;
+  /* height: 11px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.dato{
+  background-color: none;
+  border-color: #90caf9af;
+  width: 200px;
+  height: 35px;
+  border-radius: 30px;
+  font-size: 32px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #506a91ee ;
+  text-align: center;
+  justify-content: center;
+}
+.boton{
+ background-color:#90caf959;
+  border-color:#1976d239;
+  width: 120px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.caja {
+  background-color: rgba(255, 255, 255, 0.519);
+  width: 97%;
+  border-radius: 15px;
+  display: -ms-flexbox;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
